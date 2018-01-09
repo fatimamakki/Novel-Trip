@@ -13,7 +13,7 @@ import org.jsoup.nodes.Document;
 public class GoogleGet {
 	public String[] cResults;
 	public String[] iResults;
-    //testinghghghghgh
+    //testinghghghghghff
 	public void query(String name) throws IOException, JSONException {
 		name = name.replaceAll(" ", "%20");
 		URL url = new URL("https://ajax.googleapis.com/ajax/services/search/images?v=1.0&imgtype=photo&rsz=8&q="+name);
